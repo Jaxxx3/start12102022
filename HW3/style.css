@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #fff;
+    padding: 10px 0;
+    
+}
+
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+    }
+
+    .logo,
+    .links{
+        width: 460px;
+        display: inline-block;
+        
+    }
+
+    .links{
+       text-align: right;
+    }
+
+    .tw,
+    .fb{
+        display: inline-block;
+        }
+
+        main,
+        footer{
+            text-align: center;
+        }
+
+        .wrapper1{
+        background-color: #FAC960;
+        padding-top: 91.8px;
+        padding-bottom: 92.2px;
+            }
+
+            h1{
+            color: #8A6D2F;
+            font-weight: 400;
+            font-size: 44px;
+            /* line-height: 54px; */
+            }
+
+input[type=email]{
+    
+    width: 540px;
+    line-height: 54px;
+    padding-left: 36px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #999999;
+       
+}
+
+input[type=submit]{
+    width: 250px;    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    background-color: #A8863D;
+    color: #FFFFFF;
+
+    /* Maxim, hi! Can you please explain why border of this input is black ?? Should I use - border-block-color?*/
+}
+
+.wrapper2{
+    background-color: #F2F2F2;
+    padding-top: 80.8px;
+    padding-bottom: 81.63px;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: 400;
+    font-size: 37px;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+font-size: 23px;
+
+}
+
+.wrapper3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.wrapper4{
+
+    background: #FAC960;
+    padding-top: 25px;
+    padding-bottom: 105px;
+}
+
+input[type=button] {
+    width: 61px;
+    height: 22px;
+    background: #FFFFFF;
+border: 1px solid #758696;
+border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+footer{
+    padding-top: 81px;
+    padding-bottom: 120px;
+    background: rgba(242, 242, 242, 1);
+}
+
+#tw{
+    width: 22px;
+    height: 18px;
+    left: calc(50% - 22px/2 - 39px);
+    top: 60.62px;
+    margin-right: 10px;
+}
+#fb{
+    width: 21px;
+    height: 17px;
+    left: calc(50% - 21px/2 + 0.5px);
+    top: 60.62px;
+    margin-right: 15px
+}
+#mail{
+    width: 21px;
+    height: 17px;
+    left: calc(50% - 21px/2 + 39.5px);
+    top: 60.62px;
+    margin-left: 3px
+}
+/* Why mail icon is so small ? */
