@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    position: relative;
+    /* text-align: center; */
+    padding: 0 120px;
+    display: inline-block;
+}
+
+h1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: blueviolet;
+    font-size: 20px;
+    width: 100px;
+    height: 5px;
+    bottom: 10px;
+    left: 0;
+}
+
+h1::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: rgb(7, 156, 72);
+    font-size: 20px;
+    width: 100px;
+    height: 5px;
+    bottom: 10px;
+    right: 0;
+}
+
+.table{
+    display: table;
+    width: 1000px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    border: 1px solid red;
+    vertical-align: middle;
+}
+
+.cell:first-child{
+    height: 100px;
+}
+
+.float-block{
+    margin: 20px auto;
+    /* border:  2px solid red; */
+    width: 600px; 
+
+}
+
+.first,
+.second{
+    width: 300px;
+    padding: 30px;
+}
+
+.first{
+    float: left;
+    background-color: aliceblue;
+}
+
+.second{
+    float: right;
+    background-color: antiquewhite;
+}
